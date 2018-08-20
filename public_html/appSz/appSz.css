@@ -13,6 +13,8 @@ body
     background-color: #000000;
     color: lightgray;
     font-size: 28px;
+	font-family: 'Inconsolata', monospace, bold;
+	font-weight:700;
 }
 
 #pojemmnik
@@ -25,6 +27,7 @@ body
 #plansza
 {
     width: 900px;
+	
     margin-left: 30px;
     margin-right: 30px; 
     text-align: center;
@@ -38,6 +41,17 @@ body
     width: 450px;
     text-align: center;
     min-height: 280px;
+	
+}
+
+#wynik
+{
+	width: 900px;
+	text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;	
+	 font-size: 48px;
+    min-height: 60px;
 }
 
 #alfabet
@@ -46,4 +60,35 @@ body
     width: 450px;
     text-align: center;
     min-height: 280px;
+	min-width: 200px;
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+.restart
+{
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid gray;
+	float: left;
+	cursor: pointer;
+	border-radius: 30px;
 }
